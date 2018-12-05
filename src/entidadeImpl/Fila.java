@@ -4,12 +4,14 @@ import br.com.entidade.No;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
-public class Fila implements br.com.negocio.Fila{
+public class Fila implements br.com.negocio.Fila {
+
     private No inicio;
     private Integer tamanho;
-    
+
     public Fila() {
         tamanho = 0;
     }

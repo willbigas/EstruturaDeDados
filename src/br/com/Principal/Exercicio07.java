@@ -1,3 +1,12 @@
+/**
+ * 7. Implementar o jogo da forca lendo as palavras de um arquivo txt criado por você (uma
+ * palavra simples por linha - não composta), armazenando-as em uma lista circular.
+ * Sorteie uma palavra e inicie o jogo para que o usuário faça a adivinhação. Dê cinco
+ * possibilidades de erro para o usuário.
+ * Para cada letra, armazene-a em uma estrutura de dados adequada de forma
+ * que ao final do jogo (acertando ou não) apresente todas
+ * as tentativas na sequência opostas a que foi inserida.
+ */
 package br.com.Principal;
 
 import entidadeImpl.ListaCircular;
@@ -12,7 +21,8 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public class Exercicio07 {
 
@@ -38,12 +48,12 @@ public class Exercicio07 {
                 } else {
                     chutes.adicionar(letra);
                     mensagem = joga(letra);
-                }               
+                }
             }
         }
-        if(acerto < palavraSorteada.length()){
+        if (acerto < palavraSorteada.length()) {
             JOptionPane.showMessageDialog(null, "Você perdeu!\n" + chutes.inverso());
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, "Você ganhou!\n" + chutes.inverso());
         }
     }

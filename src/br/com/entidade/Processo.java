@@ -2,7 +2,8 @@ package br.com.entidade;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public class Processo {
 

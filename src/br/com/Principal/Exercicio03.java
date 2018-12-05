@@ -1,3 +1,13 @@
+/**
+ * 3. Imagine que você está implementando um sistema operacional e precisa escalonar os
+ * processos A, B, C, D e E para a execução. Simule a execução desses processos (com os
+ * tempos abaixo) supondo que o clock do processador é de 10 segundos. Qual estrutura
+ * de dados você utilizaria? Considere a ordem de execução inicial como a ordem
+ * alfabética.
+ *
+ * Processo   A    B  C  D  E
+ * Tempo (s) 72  90  68 55 47
+ */
 package br.com.Principal;
 
 import br.com.entidade.Processo;
@@ -5,7 +15,8 @@ import entidadeImpl.ListaCircular;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/11/2018
  */
 public class Exercicio03 {
 
@@ -14,7 +25,6 @@ public class Exercicio03 {
     public static void main(String[] args) {
         listarProcessos();
         processar();
-
     }
 
     private static void listarProcessos() {

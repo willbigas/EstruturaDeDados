@@ -1,3 +1,12 @@
+/**
+ * 4. Implemente um robô que deve sair de uma labirinto de MxN posições. Ele está
+ * inicialmente posicionado na posição 0,0 e deve chegar até a posição M,N. Implemente
+ * a decisão de caminho do robô sabendo que ele só pode movimentar-se para o norte,
+ * sul, leste ou oeste. Ao final, apresente o caminho percorrido do início ao fim e o
+ *
+ * caminho reverso, utilizando fila e pilha. Labirinto de exemplo (onde 1 são células que o
+ * robô não pode ocupar):
+ */
 package br.com.Principal;
 
 import br.com.entidade.Posicao;
@@ -7,7 +16,8 @@ import java.util.Objects;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/11/2018
  */
 public class Exercicio04 {
 

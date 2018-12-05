@@ -5,7 +5,8 @@ import br.com.negocio.Lista;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public class ListaCircular implements Lista {
 

@@ -2,7 +2,8 @@ package br.com.negocio;
 
 /**
  *
- * @author WILL
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public interface Fila {
 
@@ -11,6 +12,6 @@ public interface Fila {
     public Object remover();
 
     public Integer tamanho();
-    
+
     public Boolean isVazia();
 }

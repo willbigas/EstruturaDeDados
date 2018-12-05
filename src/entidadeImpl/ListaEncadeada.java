@@ -1,4 +1,3 @@
-
 package entidadeImpl;
 
 import br.com.negocio.Lista;
@@ -6,7 +5,8 @@ import br.com.entidade.No;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public class ListaEncadeada implements Lista {
 
@@ -171,7 +171,6 @@ public class ListaEncadeada implements Lista {
         return false;
     }
 
-
     @Override
     public String toString() {
         String texto = "";
@@ -194,7 +193,7 @@ public class ListaEncadeada implements Lista {
         }
         return false;
     }
-    
+
     public void vizualizarFila() {
         No aux = inicio;
         while (aux != null) {

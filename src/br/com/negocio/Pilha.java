@@ -2,7 +2,8 @@ package br.com.negocio;
 
 /**
  *
- * @author WILL
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
 public interface Pilha {
 

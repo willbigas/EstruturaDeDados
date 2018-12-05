@@ -1,3 +1,13 @@
+/**
+ * 2. Crie um programa de gerenciamento de fila de atendimento. Crie um menu com as
+ * funções: 
+ * (i) gerar uma nova senha; (ii) gerar senha prioritária; (iii) chamar próximo e
+ * visualizar a fila de espera. Pré requisitos:
+ *
+ * a. O sistema deve gerar senhas numéricas aleatórias de até 3 dígitos;
+ * b. O sistema deve gerenciar as senhas com duas filas (normal e prioritária);
+ * c. O sistema só pode chamar uma senha normal se a fila prioritária estiver vazia;
+ */
 package br.com.Principal;
 
 import java.util.Random;
@@ -6,7 +16,8 @@ import entidadeImpl.ListaEncadeada;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/11/2018
  */
 public class Exercicio02 {
 
@@ -79,7 +90,8 @@ public class Exercicio02 {
         proximo = (Integer) senhaPrioritaria.getProximo();
         if (proximo == null) {
             proximo = (Integer) senhaNormal.getProximo();
-        } if (proximo == null) {
+        }
+        if (proximo == null) {
             JOptionPane.showMessageDialog(null, "Não Existem + Pessoas para Chamar , Favor aguardar!");
         }
         return proximo;

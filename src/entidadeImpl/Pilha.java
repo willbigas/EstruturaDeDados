@@ -4,9 +4,10 @@ import br.com.entidade.No;
 
 /**
  *
- * @author WILL-PC
+ * @author William Bigas Mauro
+ * @since 20/12/2018
  */
-public class Pilha implements br.com.negocio.Pilha{
+public class Pilha implements br.com.negocio.Pilha {
 
     private No topo;
     private Integer tamanho;
